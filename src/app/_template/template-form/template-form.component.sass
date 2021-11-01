@@ -1,0 +1,69 @@
+@import '../../../style/var'
+
+// ##################################################################################
+// ##################################################################################
+// ##################################################################################
+.form
+    background-color: $white
+    position: absolute
+    max-width: 400px
+    height: 400px
+    padding: 2%
+    //box-shadow: 0px 0px 5px 2px $blue
+    border: 2px solid $prime
+    left: 0
+    right: 0
+    top: 0
+    bottom: 0
+    margin: auto
+    border-radius: 10px
+    text-align: center
+    font-family: $font1
+
+    h1
+        margin-top: 0
+        color: $second
+
+    p
+        width: 90%
+        margin: auto
+        margin-bottom: 5%
+        text-align: left
+        font-family: $font2
+        color: $second
+
+    input
+        font-size: 1.5rem
+        
+        
+
+    .text
+        width: 90%
+        height: 50px
+        border-radius: 10px
+        border: 2px solid $second
+        margin: 2% 0
+        color: $second
+        font-family: $font2
+    
+    .button,
+    .button:visited
+        width: 40%
+        height: 50px
+        border-radius: 10px
+        border: 2px solid $second
+        margin: 5% 0
+        color: $white
+        font-family: $font1
+        background-color: $second
+        cursor: pointer
+    .button:active,
+    .button:hover
+        //background-color: $prime-dark
+        background-color: $prime
+        border-color: $prime
+
+    .text:focus,
+    .button:focus
+        outline: none
+        border: 2px solid $prime
