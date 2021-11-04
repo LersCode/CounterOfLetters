@@ -18,13 +18,15 @@
     <h1 class="heading">Counter</h1>
     <p class="info">Fill in the letter you are searching and the word you want to search in.</p>
     <?php
+    //caqlculate lettercount
     $count = substr_count($_POST['word'], $_POST['letter']);
+    //if count > 0 fontcolor is green, else its red
     if($count>0){
         echo '<p class="text" style="color:#2ecc71">';
     }else{
         echo '<p class="text" style="color:#e74c3c">';
     }   
-        
+    //output the result sentence    
     echo ($_POST['letter'].' in '.$_POST['word'].': '.$count.'x');
         
     echo '</p>';
