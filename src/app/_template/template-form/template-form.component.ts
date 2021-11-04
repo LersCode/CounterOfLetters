@@ -6,10 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./template-form.component.sass']
 })
 export class TemplateFormComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
+  constructor() { 
   }
+  
+  ngOnInit(): void {
 
+  }
 }
