@@ -31,7 +31,7 @@
         
     echo '</p>';
     ?>
-   <a href="/"><input type="button" class="button" value="count again"></a>
+   <a href="/"><input type="button" class="button" value="count again" autofocus></a>
 </div>
 <div class="footer">
     <p class="footer-text">©&nbsp;Copyright</p>
