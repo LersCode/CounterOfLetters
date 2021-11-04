@@ -2,8 +2,8 @@
     <h1 class="heading">Counter</h1>
     <p class="info">Fill in the letter you are searching and the word you want to search in.<strong>Counter is case-sensitive</strong></p>
     <form action="letterCounter.php" method="post">
-        <input #letter type="text" id="letter" class="text" name="letter" autofocus maxlength="1" minlength="1" placeholder="Letter" required>
-        <input #word type="text" id="word" class="text" name="word" minlength="1" placeholder="Word" required>
+        <input #letter type="text" id="letter" class="text" name="letter" autofocus maxlength="1" minlength="1" placeholder="Letter" required oninvalid="this.setCustomValidity('Enter Letter Here')" oninput="this.setCustomValidity('')">
+        <input #word type="text" id="word" class="text" name="word" minlength="1" placeholder="Word" required oninvalid="this.setCustomValidity('Enter Word Here')" oninput="this.setCustomValidity('')">
         <input type="submit" class="button" value="count">
     </form>
 </div>

@@ -27,7 +27,7 @@
         echo '<p class="text" style="color:#e74c3c">';
     }   
     //output the result sentence    
-    echo ($_POST['letter'].' in '.$_POST['word'].': '.$count.'x');
+    echo ($count.'x');
         
     echo '</p>';
     ?>
